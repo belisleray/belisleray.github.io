@@ -1,0 +1,93 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+}
+body{
+  font-family: 'Hind', sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px 4px #000000;
+}
+
+.header-text{
+  font-size: xx-large;
+  color: white;
+}
+.main-text{
+  font-size: large;
+  color: white;
+  overflow-wrap: break-word;
+  max-width: 50%;
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;	
+}
+.container{
+  margin-left: 75px;
+  margin-right: 75px;
+  width: 100vw;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-content{
+  vertical-align: center;
+}
+.image-container{
+  float:right;
+  vertical-align: center;
+}
+
+#main-background{
+  height: 1080px;
+  background-color: #FF388C; /* for browsers that do not support linear-gradient */
+  background-image: linear-gradient(to bottom right, #39388C, #FF388C);
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+#contact{
+  text-decoration: none;
+  color: white;
+  text-align: right;
+}
+#bio{
+  height: 80vh;
+  vertical-align: center;
+  margin-top: 200px;
+
+}
+#bio-intro{
+	font-size: 64px;
+	margin-top: 1em;
+}
+#portfolio-container{
+	background-color: #282828;
+	height: 800px;
+  align-items: center;
+}
+#portfolio-header{
+  color: #D8D8D8;
+  font-size: 64px;
+  text-align: center;
+  box-shadow: 0 .5px 0 #d8d8d8;
+}
+#portfolio-body{
+  width: 80%;
+  margin-left: 10%;
+}
+#portfolio-table{
+  align-items: justify;
+}
+#portfolio-note{
+  color: #D8D8D8;
+  text-align: center;
+}
+
+
+.debug{
+  outline: 1px solid white;
+}

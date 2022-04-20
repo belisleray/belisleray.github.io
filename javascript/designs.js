@@ -1,0 +1,1 @@
+contact = document.getElementById("#contact");
